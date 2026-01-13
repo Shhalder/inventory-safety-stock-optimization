@@ -55,3 +55,5 @@ df_safety_stock['risk_level'] = pd.cut(df_safety_stock['risk_index'],bins=bins,l
 
 #print(df_safety_stock.head())
 #print(df.safety_stock[300:350])
+
+df_safety_stock.to_csv(os.path.join(DATA_FOLDER,'inventory_risk_analysis.csv'), index=False)
