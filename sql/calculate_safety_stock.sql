@@ -97,4 +97,4 @@ SELECT ds.product_id,
 FROM DailyStats ds
 	LEFT JOIN lead_time_stats lts ON ds.product_id = lts.product_id
 WHERE suggested_safety_stock > 0
-ORDER BY suggested_safety_stock DESC
+ORDER BY suggested_safety_stock DESC;

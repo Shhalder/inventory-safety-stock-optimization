@@ -9,7 +9,7 @@ import sqlite3 #database operations
 
 #Data configuration
 DATA_FOLDER = 'data/' # all files related to data will be stored in this folder
-DB_NAME = 'inventory.db'  #database name
+DB_NAME = os.path.join(DATA_FOLDER, 'inventory.db') #database name
 
 
 def load_db():
