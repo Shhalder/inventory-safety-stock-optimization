@@ -1,0 +1,11 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:inventory-safety-stock-optimization}/inventory.db",
+      "name": "Olist_Inventory_DB"
+    }
+  ]
+}
